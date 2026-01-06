@@ -10,6 +10,21 @@
   font-optical-sizing: auto;
 
 }
+.section-heading{
+    max-width: 827px;
+    text-align: center;
+}
+.section-heading h2{
+font-size: 35px;
+margin-bottom: 30px;
+
+}
+.section-heading p{
+    font-size: 18px;
+    margin-bottom: 30x;
+    line-height: 30px;
+    color: #757575;
+}
 
 /* Main Style */
 
@@ -105,4 +120,23 @@ nav .manue a {
 #banner .banner-image img{
     max-width: 585px;
     vertical-align: middle;
+}
+
+#about{
+    padding-top: 130px;
+}
+
+#about .about-container{
+    width: 71%;
+    max-width: 1140px;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fff8f3;
+    padding: 131px 156px;
+}
+
+
+#about .about-container .about-info{
+    
 }
